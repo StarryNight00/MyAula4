@@ -65,7 +65,7 @@ namespace NPCPerks
             for (int i = 0; i < NumNpc; i++)
             {
                 //Mostrar Carateristicas
-                Console.WriteLine($"O NPC {i+1} tem as seguintes caraterísticas: ");
+                Console.WriteLine($"\nO NPC {i+1} tem as seguintes caraterísticas: ");
                 Console.Write(caract[i]);
 
                 if ((caract[i] & CarateristicasNPC.Combat) == CarateristicasNPC.Combat && (caract[i] & CarateristicasNPC.Luck) == CarateristicasNPC.Luck)
