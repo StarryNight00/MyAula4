@@ -60,7 +60,9 @@ namespace NPCPerks
                     caract[i] |= CarateristicasNPC.Luck;
                 }
             }
-            
+
+            Console.WriteLine("\n\n");
+
             //Mostrar Características
             for (int i = 0; i < NumNpc; i++)
             {
@@ -70,7 +72,7 @@ namespace NPCPerks
 
                 if ((caract[i] & CarateristicasNPC.Combat) == CarateristicasNPC.Combat && (caract[i] & CarateristicasNPC.Luck) == CarateristicasNPC.Luck)
                 {
-                    Console.WriteLine("You shall win all FIGHTS!!!");
+                    Console.WriteLine("You shall win all FIGHTS!!!\n");
                 }
             }
         }
