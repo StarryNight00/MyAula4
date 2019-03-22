@@ -7,6 +7,7 @@ namespace GitBranching
         static void Main(string[] args)
         {
             Console.WriteLine("Adeus!");
+            Console.WriteLine("(it means Bye)");
         }
     }
 }
